@@ -4,7 +4,8 @@ This repository contains code for multi-GPU training using Brain Builder and Ten
 1. [Brain Builder](https://info.neurala.com/brain-builder)
 2. [TensorFlow 1.11](https://www.tensorflow.org/) or above
 3. Python 3.5 or above
-4. [Python Image Library (PIL)](https://pillow.readthedocs.io/en/5.3.x/)
+4. [Numpy](http://www.numpy.org/) 
+5. [Python Image Library (PIL)](https://pillow.readthedocs.io/en/5.3.x/)
 
 ## How to run the code
 The model is written in the file `utils/UNet.py`. Please note that we've modified the UNet from its original implementation to speed up training and convergence and enable quicker experiments for the purpose of this tutorial.
